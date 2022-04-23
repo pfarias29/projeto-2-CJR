@@ -1,0 +1,83 @@
+nav {
+    background-color: #343a40;
+    height:3.5vh;
+    padding-top: 0.5vh;
+}
+
+a {
+    color: #fff;
+    padding:2vh;
+    
+}
+
+a:hover{
+    color:#f79800;
+    cursor: pointer;
+}
+
+.table {
+    display:grid;
+    padding-top:2vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+table {
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+thead {
+    background-color: #e9ecef;
+}
+
+th {
+    text-align: left;
+    width:5px;
+    height: 5vh;
+    padding-left: 2vh;
+}
+
+td {
+    padding-right: 8vh;
+    width:5vh;
+    height:4vh;
+    padding-left: 2vh;
+}
+
+td button {
+    background-color: transparent;
+    border:none;
+    font-size:medium;
+}
+
+td button:hover {
+    cursor: pointer;
+}
+
+#edit {
+    color:#ffa207;
+}
+
+#delete {
+    color: #dc3545;
+}
+
+.pagination {
+    padding-top: 3vh;
+    margin-left: 45% ;
+}
+
+.pagination button {
+    height: 3.5vh;
+    width: 4.2vh;
+}
+
+.pagination button:enabled:hover {
+    background-color: #878584; 
+    cursor: pointer;
+}
+
+#active {
+    background-color: #007bff;
+}

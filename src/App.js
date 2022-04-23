@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/header/index'
+import {Nav, Tabela} from './components/body/tabela/index'
+import Footer from './components/body/footer/index'
 
-function App() {
+
+const Dinnerdash = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <body>
+        <Header/>
+        <Nav/>
+        <Tabela/>
+        <Footer/>
+      </body>  
+    </main> 
   );
 }
 
-export default App;
+export default Dinnerdash;
